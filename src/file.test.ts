@@ -1,5 +1,5 @@
-import { foo } from "./file"
+import { foo, calculate } from "./file"
 
-test('I test the thing', () => {
-    expect(foo()).toBe('hello world')
+test('calculating the score returns a result', () => {
+    expect(() => calculate([1,2,3,4,5])).not.toThrow()
 })
