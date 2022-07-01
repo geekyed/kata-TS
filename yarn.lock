@@ -1534,6 +1534,13 @@ jest-snapshot@^28.1.2:
     pretty-format "^28.1.1"
     semver "^7.3.5"
 
+jest-theories@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/jest-theories/-/jest-theories-1.5.1.tgz#783cc59eeb9feac4193214b42ce651ae24fc66d7"
+  integrity sha512-70f2NKcy4kJSufJKSzKfoZmaGbvBzWnwFe1BaxJDAbu6/rKXU5p27G3o2AsyaIJggit7LCui2/9RAfaBPXVVqQ==
+  dependencies:
+    string-format "^2.0.0"
+
 jest-util@^28.0.0, jest-util@^28.1.1:
   version "28.1.1"
   resolved "https://registry.yarnpkg.com/jest-util/-/jest-util-28.1.1.tgz#ff39e436a1aca397c0ab998db5a51ae2b7080d05"
@@ -1943,6 +1950,11 @@ stack-utils@^2.0.3:
   integrity sha512-xrQcmYhOsn/1kX+Vraq+7j4oE2j/6BFscZ0etmYg81xuM8Gq0022Pxb8+IqgOFUIaxHs0KaSb7T1+OegiNrNFA==
   dependencies:
     escape-string-regexp "^2.0.0"
+
+string-format@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/string-format/-/string-format-2.0.0.tgz#f2df2e7097440d3b65de31b6d40d54c96eaffb9b"
+  integrity sha512-bbEs3scLeYNXLecRRuk6uJxdXUSj6le/8rNPHChIJTn2V79aXVTR1EH2OH5zLKKoz0V02fOUKZZcw01pLUShZA==
 
 string-length@^4.0.1:
   version "4.0.2"
