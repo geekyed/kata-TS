@@ -1,31 +1,21 @@
 {
   "compilerOptions": {
     "outDir": "./artifacts/", // path to output directory
-    "sourceMap": true, // allow sourcemap support
+    "sourceMap": false, // allow sourcemap support
     "strict": true,
     "strictNullChecks": true, // enable strict null checks as a best practice
     "noImplicitAny": false,
-    "resolveJsonModule": true,
-    "module": "es2020",
-    "lib": [
-      "ESNext",
-      "DOM"
-    ],
     "moduleResolution": "node", // specify module code generation
-    "target": "es6", // specify ECMAScript target version
+    "target": "es5", // specify ECMAScript target version
     "baseUrl": "src",
     "allowSyntheticDefaultImports": true,
     "downlevelIteration": true,
     "types": [
-      "jest"
+      "node"
     ],
     "noUncheckedIndexedAccess": true
   },
   "include": [
     "./src/**/*",
-  ],
-  "exclude": [
-    "src/**/*.test.ts",
-    "node_modules"
   ]
 }
